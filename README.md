@@ -28,3 +28,34 @@ This is a multiplayer Tic-Tac-Toe game built using Python Flask, Flask-SocketIO,
 ```bash
 git clone https://github.com/Priyanshi2609/Tic-Tac-Toe-Game.git
 cd Tic-Tac-Toe-Game
+## Setup Instructions
+
+### Step 1: Clone the Repository
+Clone the repository and navigate into the project directory:
+```bash
+git clone https://github.com/Priyanshi2609/Tic-Tac-Toe-Game.git
+cd Tic-Tac-Toe-Game
+Step 2: Install Dependencies
+Install the required Python packages:
+
+bash
+Copy
+Edit
+pip install flask flask-sqlalchemy flask-login flask-socketio
+Step 3: Initialize the Database
+Create the SQLite database:
+
+bash
+Copy
+Edit
+python
+>>> from app import db
+>>> db.create_all()
+>>> exit()
+Step 4: Run the Application
+Start the development server:
+
+bash
+Copy
+Edit
+python app.py
