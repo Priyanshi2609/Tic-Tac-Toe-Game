@@ -1,2 +1,30 @@
-# Tic-Tac-Toe-Game
-This project features a secure user authentication system and a multiplayer Tic-Tac-Toe game. Users can register and log in with token-based authentication (e.g., JWT). Once authenticated, two players can start a game, with logic to track turns, validate moves, enforce rules, and declare a winner or draw, ensuring a fair and engaging experience.
+# Tic-Tac-Toe Game with Flask and Socket.IO
+
+This is a multiplayer Tic-Tac-Toe game built using Python Flask, Flask-SocketIO, and Flask-Login. It features user authentication, real-time gameplay, and a responsive interface created with HTML, CSS, and JavaScript.
+
+---
+
+## Features
+
+- **User Registration & Login**:  
+  Secure user authentication system with session management.
+  
+- **Real-Time Gameplay**:  
+  Players can compete in real-time with live updates using WebSockets.
+  
+- **Game Logic**:  
+  Turn-based gameplay, win/draw detection, and invalid move prevention.
+
+- **Technology Stack**:  
+  Backend: Flask, Flask-SQLAlchemy, Flask-SocketIO, Flask-Login  
+  Frontend: HTML, CSS, JavaScript  
+  Database: SQLite  
+
+---
+
+## Setup Instructions
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Priyanshi2609/Tic-Tac-Toe-Game.git
+cd Tic-Tac-Toe-Game
