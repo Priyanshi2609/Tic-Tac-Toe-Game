@@ -30,7 +30,7 @@ Clone the repository and navigate into the project directory:
 git clone https://github.com/Priyanshi2609/Tic-Tac-Toe-Game.git
 cd Tic-Tac-Toe-Game
 
-### Step 2: Install Dependencies
+### **Step 2: Install Dependencies**
 Install the required Python packages:
 
 bash
